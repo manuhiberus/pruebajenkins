@@ -4,7 +4,7 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   sh 'mvn clean compile'
+   bat 'mvn clean compile'
    
    
    // ------------------------------------
@@ -12,7 +12,7 @@ node {
    // ------------------------------------
    stage 'Instalar'
    echo 'Instala el paquete generado en el repositorio maven'
-   sh 'mvn install
+   bat 'mvn install
    
  
 }
