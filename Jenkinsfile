@@ -5,7 +5,7 @@ node {
    // -- Compilando
    echo 'Compilando aplicación'
    stage('install'){
-   bat 'mvn clean'
+   bat 'java -version'
    
    }
 }
