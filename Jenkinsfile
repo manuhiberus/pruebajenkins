@@ -4,8 +4,8 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-  // stage('install'){
+   stage('install'){
    bat 'mvn clean compile'
    
-  // }
+   }
 }
