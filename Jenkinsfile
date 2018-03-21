@@ -12,7 +12,7 @@ node {
    // ------------------------------------
    stage 'Instalar'
    echo 'Instala el paquete generado en el repositorio maven'
-   bat 'mvn install
+   bat 'mvn install'
    
  
 }
