@@ -4,7 +4,7 @@ node {
    
    // -- Compilando
    echo 'Compilando aplicación'
-   stage('install'){
+   stage('instalacion'){
    bat 'java -version'
    
    }
