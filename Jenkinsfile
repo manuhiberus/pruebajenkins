@@ -5,7 +5,7 @@ node {
    // -- Compilando
    echo 'Compilando aplicación'
    // bat 'mvn clean compile'
-   bat 'ls'
+  
    // prueba
    // ------------------------------------
    // -- ETAPA: Instalar
