@@ -6,6 +6,6 @@ node {
    echo 'Compilando aplicación'
    stage('instalacion'){
    //bat 'docker ps'
-   bat 'mvn install'
+   bat 'docker-compose up'
    }
 }
