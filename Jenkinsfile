@@ -5,7 +5,7 @@ node {
    // -- Compilando
    echo 'Compilando aplicación'
    stage('instalacion'){
-   bat 'java -version'
+   bat 'docker ps'
    
    }
 }
