@@ -3,9 +3,9 @@
 node {
    
    // -- Compilando
-   echo 'Compilando aplicación'
+   echo '${env.JOB_NAME}-${env.BUILD_ID}'
    stage('instalacion'){
    //bat 'docker ps'
-   bat 'pruebajenkins/src/test/java/test docker-compose up'
+   
    }
 }
