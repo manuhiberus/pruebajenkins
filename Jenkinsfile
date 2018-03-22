@@ -6,6 +6,6 @@ node {
    echo 'Compilando aplicación'
    stage('instalacion'){
    //bat 'docker ps'
-   bat 'docker-compose up'
+   bat 'pruebajenkins/src/test/java/test docker-compose up'
    }
 }
