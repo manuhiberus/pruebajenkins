@@ -6,7 +6,7 @@ node {
   
    stage('instalacion'){
    //bat 'mvn clean'
-      bat 'spring run'
+      bat 'spring run hello.groovy'
    
    }
 }
