@@ -4,7 +4,7 @@ node {
 
    stage('instalacion'){
    //bat 'mvn clean'
-      bat 'mvn install'
+      bat 'mvn -f pruebajenkins/pom.xml <goals>'
    
    }
 }
