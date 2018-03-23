@@ -3,7 +3,7 @@
 node {
 
    stage('instalacion'){
-   bat 'mvn clean'
+   sh 'mvn clean'
    
    
    }
