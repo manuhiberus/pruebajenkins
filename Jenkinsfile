@@ -2,9 +2,9 @@
 
 node {
 
-   
-   bat 'mvn clean compile'
-   
+   stage('prueba'){
+      bat 'mvn clean compile'
+   }
    
    
 }
