@@ -2,7 +2,7 @@
 
 node {
 
-   stage('prueba'){
+   stage('install'){
       bat 'mvn clean compile'
    }
    
