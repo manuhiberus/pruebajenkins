@@ -5,7 +5,7 @@ node {
    // -- Compilando
   
    stage('instalacion'){
-   bat 'mvn clean'
+   bat 'mvn -f path/to/pom.xml'
    
    }
 }
