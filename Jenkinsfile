@@ -5,7 +5,7 @@ node {
    // -- Compilando
   
    stage('instalacion'){
-   bat 'mvn -version'
+   bat 'mvn clean'
    
    }
 }
