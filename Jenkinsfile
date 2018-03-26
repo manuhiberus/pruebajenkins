@@ -1,5 +1,6 @@
 #!groovy
 
 node {
-    agent { docker { image 'maven:3.3.3' } }
+    def mvnHome = tool 'M3'
+    env.PATH = "${mvnHome}/bin:${env.PATH}"
 }
