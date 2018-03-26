@@ -3,6 +3,6 @@
 node {
 
    bat 'java -version'
-   bat 'mvn clean'
+   bat 'mvn clean install'
    
 }
