@@ -3,7 +3,8 @@
 node {
 
    stage('install'){
-      bat 'cd C:/Users/msanchez/Documents/apache-maven-3.5.2/bin/mvn clean compile'
+      // cd C:/Users/msanchez/Documents/apache-maven-3.5.2/bin/mvn
+      bat 'mvn clean compile'
    }
    
    
