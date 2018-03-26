@@ -1,8 +1,10 @@
 #!groovy
 
 node {
-    stage 'mvn Limpieza'
+    stage 'mvn clean'
     def mvnHome = tool 'M3'
     env.PATH = "${mvnHome}/bin:${env.PATH}"
-    bat 'mvn compile'
+    bat 'mvn clean'
+    stage 'mvn install'
+    bat 'mvn install'
 }
