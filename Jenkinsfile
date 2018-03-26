@@ -3,6 +3,6 @@
 node {
 
    bat 'java -version'
-   bat 'mvn install'
+   bat 'docker -version'
    
 }
