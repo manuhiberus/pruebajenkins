@@ -8,5 +8,5 @@ node {
        def maven = tool 'M3' //M3 es el nombre que le puse al maven instalado para Jenkins
        //def jdk ='JDK8' //JDK8 es el nombre que le puse al java de Jenkins
     
-
+    echo maven
 }
