@@ -7,7 +7,5 @@ node {
       //Alias a herramientas instaladas en Jenkins
        def maven = tool 'M3' //M3 es el nombre que le puse al maven instalado para Jenkins
        def jdk = tool 'JDK8' //JDK8 es el nombre que le puse al java de Jenkins
-       def docker = tool 'docker'
-    echo docker
-    echo maven
+       echo maven
 }
