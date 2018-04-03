@@ -1,5 +1,4 @@
- #!groovy
-
+#!groovy
 String workspace = 'hola'
  node {
    
