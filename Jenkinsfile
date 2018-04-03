@@ -6,12 +6,15 @@
    echo "var mvnHome='${mvnHome}'"
    echo "var env.PATH='${env.PATH}'"
   
-   echo 'Descargando código de SCM'
-   //bat 'rm -rf *'
-   checkout scm
+   echo 'Eliminar el contenido'
+   bat 'rmdir /s /q *.*'
+ /* echo 'Descargando código de SCM' 
+  
+  checkout scm
    echo 'Compilando aplicación'
    bat 'mvn clean compile'
   
   bat 'dir'
-  //bat 'mvn verify'
+  bat 'mvn verify'
+ */
  }
