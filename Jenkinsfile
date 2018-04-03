@@ -7,6 +7,6 @@
   echo "var env.PATH='${env.PATH}'"
   
    echo 'Descargando código de SCM'
-   bat 'rm -rf *'
+   //bat 'rm -rf *'
    checkout scm
  }
