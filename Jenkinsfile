@@ -9,4 +9,6 @@
    echo 'Descargando código de SCM'
    //bat 'rm -rf *'
    checkout scm
+   echo 'Compilando aplicación'
+   bat 'mvn clean compile'
  }
