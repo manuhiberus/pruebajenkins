@@ -11,7 +11,7 @@
    checkout scm
    echo 'Compilando aplicación'
    bat 'mvn clean compile'
-  bat 'cd env.PATH'
+  
   bat 'dir'
   //bat 'mvn verify'
  }
