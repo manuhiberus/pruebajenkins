@@ -8,13 +8,21 @@
   
    echo 'Eliminar el contenido'
    bat 'rmdir /s /q *.*'
- /* echo 'Descargando código de SCM' 
+ echo 'Descargando código de SCM' 
   
   checkout scm
    echo 'Compilando aplicación'
    bat 'mvn clean compile'
   
-  bat 'dir'
-  bat 'mvn verify'
- */
+   stage 'Test'
+   echo 'Ejecutando tests'
+   try{
+      sh 'mvn verify'
+      step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
+   }catch(err) {
+      step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
+      if (currentBuild.result == 'UNSTABLE')
+         currentBuild.result = 'FAILURE'
+      throw err
+   }
  }
