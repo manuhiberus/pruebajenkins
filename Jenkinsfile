@@ -17,7 +17,7 @@
    stage 'Test'
    echo 'Ejecutando tests'
    try{
-      sh 'mvn verify'
+      bat 'mvn verify'
       step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
    }catch(err) {
       step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
