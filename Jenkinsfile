@@ -6,9 +6,9 @@
    echo "var mvnHome='${mvnHome}'"
    echo "var env.PATH='${env.PATH}'"
   
-   echo 'Eliminar el contenido'
-   bat 'rmdir /s /q *.*'
- echo 'Descargando código de SCM' 
+   //echo 'Eliminar el contenido'
+   //bat 'rmdir /s /q *.*'
+   echo 'Descargando código de SCM' 
   
   checkout scm
    echo 'Compilando aplicación'
