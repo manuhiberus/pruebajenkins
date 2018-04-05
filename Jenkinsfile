@@ -21,7 +21,6 @@
     bat """
         call prueba.bat x86
         echo "Made it!"
-        %antt% ^
         %javaa%
     """
  }
