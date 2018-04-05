@@ -17,8 +17,7 @@
   checkout scm
    echo 'Compilando aplicación'
    bat 'mvn clean compile'
- 
-   stage 'Test'
+  
    //echo 'Ejecutando '
    //bat 'java -version'
    //bat 'mvn -version'
