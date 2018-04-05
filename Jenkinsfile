@@ -2,8 +2,10 @@
 
  node {
    def mvnHome = tool 'M3'
+  def antHome = tool 'ANT'
    env.PATH = "${mvnHome}/bin:${env.PATH}"
    echo "var mvnHome='${mvnHome}'"
+  echo "var antHome='${antHome}'"
    echo "var env.PATH='${env.PATH}'"
   
    //echo 'Eliminar el contenido'
