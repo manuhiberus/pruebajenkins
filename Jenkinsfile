@@ -22,8 +22,8 @@
    //bat 'java -version'
    //bat 'mvn -version'
    //bat 'ant -version'
-   bat  """
-   call prueba.bat
-   """
+   bat  "
+   prueba.bat
+   "
   bat "%compila%"
  }
