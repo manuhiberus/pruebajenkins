@@ -2,7 +2,7 @@
 
  node {
    def mvnHome = tool 'M3'
-  def antHome = tool 'ant installation'
+  //def antHome = tool 'ant installation'
    env.PATH = "${mvnHome}/bin:${env.PATH}"
    echo "var mvnHome='${mvnHome}'"
   echo 'ANT'
