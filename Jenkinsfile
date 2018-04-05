@@ -23,5 +23,5 @@
    //bat 'mvn -version'
    //bat 'ant -version'
    bat  "call prueba.bat"
-  bat "antt -version"
+  bat "compila"
  }
