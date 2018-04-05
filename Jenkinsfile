@@ -18,10 +18,9 @@
    echo 'Compilando aplicación'
    bat 'mvn clean compile'
   
-   //echo 'Ejecutando '
-   //bat 'java -version'
-   //bat 'mvn -version'
-   //bat 'ant -version'
-   bat  'prueba.bat'
-  echo '"%compila%"'
+    bat """
+        call prueba.bat x86
+        echo "Made it!"
+        %compila%
+    """
  }
