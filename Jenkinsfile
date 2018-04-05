@@ -6,8 +6,8 @@
    env.PATH = "${mvnHome}/bin:${env.PATH}"
    echo "var mvnHome='${mvnHome}'"
   echo 'ANT'
-  echo "var antHome='${antHome}'"
-  echo antHome
+  //echo "var antHome='${antHome}'"
+  //echo antHome
    echo "var env.PATH='${env.PATH}'"
   
    //echo 'Eliminar el contenido'
