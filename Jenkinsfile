@@ -22,5 +22,5 @@
    //echo 'Ejecutando '
    //bat 'java -version'
    //bat 'mvn -version'
-   //bat 'ant -version'
+   bat 'ant -version'
  }
