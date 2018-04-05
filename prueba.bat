@@ -2,5 +2,5 @@ set PATH=C:\Program Files\Java\jdk1.7.0_141\bin;C:\apache-ant-1.9.1\bin;%PATH%
 set JAVA_HOME=C:\Program Files\Java\jdk1.7.0_141
 set ANT_HOME=C:\apache-ant-1.9.1
 set ANT_OPTS=-Xmx768m -XX:MaxPermSize=256m
-set compila=ant -Dsrv.lib=C:\LibreriasWeblogic -Dcmn.lib=C:\LibreriasComunesJ2EE
+set antt= ant -version
 cmd
