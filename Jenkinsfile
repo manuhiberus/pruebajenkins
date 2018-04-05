@@ -7,7 +7,7 @@
    echo "var mvnHome='${mvnHome}'"
   echo 'ANT'
   echo "var antHome='${antHome}'"
-  bat 'antHome'
+  echo 'antHome'
    echo "var env.PATH='${env.PATH}'"
   
    //echo 'Eliminar el contenido'
