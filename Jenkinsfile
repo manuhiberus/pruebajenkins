@@ -22,6 +22,6 @@
    //bat 'java -version'
    //bat 'mvn -version'
    //bat 'ant -version'
-   bat cmd call "C:/Users/msanchez/.jenkins/workspace/prueba-jenkins_master-QU64GEUOZOHAQ4374Y3LSIGRF3RR5DGJ7HNK3TGTHYX6PQQOYOPQ/prueba.bat %java% %ant%"
+   bat  "call prueba.bat %java% %ant%"
  
  }
