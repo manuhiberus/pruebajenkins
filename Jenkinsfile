@@ -20,7 +20,7 @@
   */
    stage 'Test'
    //echo 'Ejecutando '
-   //bat 'java -version'
-   //bat 'mvn -version'
+   bat 'java -version'
+   bat 'mvn -version'
    bat 'ant -version'
  }
