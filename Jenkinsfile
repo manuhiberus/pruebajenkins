@@ -7,7 +7,7 @@
    echo "var mvnHome='${mvnHome}'"
   echo 'ANT'
   echo "var antHome='${antHome}'"
-  echo '${antHome}'
+  echo mvnHome
    echo "var env.PATH='${env.PATH}'"
   
    //echo 'Eliminar el contenido'
